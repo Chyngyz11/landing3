@@ -1,0 +1,57 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #00000085;
+  z-index: 1;
+  display: none;
+    .thanks{
+      display: none;
+      padding: 20px 40px;
+      &__title {
+        font-family: "Museo Sans Cyrl 700", sans-serif;
+        font-size: 19px;
+        color: #000000;
+        margin-bottom: 18px;
+      }
+      &__subtitle {
+        font-family: "Museo Sans Cyrl 500", sans-serif;
+        font-size: 14px;
+        color: #000000;
+        margin-bottom: 25px;
+      }
+    }
+
+    &__close {
+      position: absolute;
+      top: 0;
+      right: -35px;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        background: #21B82F;
+        top: 10px;
+        left: 50%;
+        transform: rotate(45deg);
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        background: #21B82F;
+        top: 10px;
+        left: 50%;
+        transform: rotate(-45deg);
+      }
+
+    }
+
+  }

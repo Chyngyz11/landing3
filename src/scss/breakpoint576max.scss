@@ -1,0 +1,93 @@
+@media (max-width: 576px){
+  .header-items__address{
+    font-size: 10px  ;
+
+  }
+  .header-items-call__tel,.header-items-call__schedule{
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .header-items-call__tel:before{
+    transform: translate(35%, -14%);
+  }
+  .home__title{
+    font-size: 35px;
+  }
+  .home__subtitle{
+    font-size: 21px;
+  }
+  .menu-navigator__link{
+margin-right: 0;
+    font-size: 10px;
+}
+  .location-transportation-vehicle__title,.location-transportation-vehicle__title1{
+    font-size: 15px;
+    margin-right: 52px;
+  }
+  .location-transportation-vehicle__variant{
+    font-size: 8px;
+    margin-left: 36px;
+  }
+  .map-content-box{
+    justify-content: space-evenly;
+  }
+  .map-content-box:before{
+    left: 18%;
+  }
+  .slide-tabs{
+    flex-direction: column;
+    margin-bottom: 17px;
+  }
+  .slide-tabs-box{
+    margin-bottom: 10px;
+  }
+  .credit-bank__title{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+    .credit-bank__dec{
+      font-size: 6px;
+      margin-bottom: 0;
+    }
+
+  .credit-bank__moreBtn{
+    font-size: 6px;
+    height: 29px;
+  }
+  .credit-bank__img{
+    max-width: 336px;
+  }
+  .cooperation__title{
+    font-size: 26px;
+  }
+  .cooperation__dec{
+    font-size: 9px;
+  }
+  .cooperation__wrapper {
+    max-width: 533px;
+    margin: 0 auto;
+  }
+  .slade-content__bg3,.slade-content__bg4{
+    display: none;
+  }
+  .getInformation__subtitle{
+    font-size: 13px;
+  }
+  .getInformation__schedule{
+    font-size: 13px;
+  }
+  .getInformation-form__input,.getInformation-form__btn{
+    width: 210px;
+  }
+  .catalog-photo-carusel1__floor1-3,.catalog-photo-carusel2-floor2-1,.catalog-photo-carusel3__floor3-2 {
+    display: none;
+  }
+  .main .footer-bottom-tel__phone,.main .footer-bottom-tel__schedule{
+    font-size: 15px;
+  }
+  .main .footer-bottom-socialMedia{
+    margin-right: 22px;
+    margin-left: 10px;
+  }
+}

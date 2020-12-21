@@ -1,0 +1,110 @@
+.location {
+  color: #131313;
+  padding: 110px 0 83px;
+  background: url("../img/4location/bg1.png") top left  no-repeat,
+              url("../img/4location/bg2.png") right 352px/488px 295px no-repeat;
+
+  &__title{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Exo 2.0 Semi",sans-serif;
+    margin-bottom: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  &__subtitle{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  &__roads{
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 60px;
+    font-weight: bold;
+  }
+  &-transportation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &-vehicle {
+
+      justify-content: start;
+
+      &__title {
+        font-weight: bold;
+        font-size: 26px;
+        color: #131313;
+        position: relative;
+        margin-bottom: 25px;
+
+        &:before {
+          content: '';
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          border: none;
+          border-radius: 50%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-920%, -50%);
+          background: #ffffff;
+          box-shadow: 0 4px 10px rgba(18, 103, 26, 0.15);
+          z-index: -1;
+        }
+      }
+
+      &__icon {
+        z-index: 1;
+        margin-right: 20px;
+      }
+
+      &__variant {
+        font-size: 16px;
+        color: #131313;
+        font-family: Roboto, sans-serif;
+        line-height: 30px;
+
+        &:nth-child(2) {
+          margin-bottom: 20px;
+        }
+
+      }
+
+
+      &__title1{
+        font-weight: bold;
+        font-size: 26px;
+        color: #131313;
+        position: relative;
+        margin-bottom: 25px;
+
+        &:before {
+          content: '';
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          border: none;
+          border-radius: 50%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-711%, -50%);
+          background: #ffffff;
+          box-shadow: 0 4px 10px rgba(18, 103, 26, 0.15);
+          z-index: -1;
+        }
+      }
+      &__dis{
+        font-weight: bold;
+      }
+  }
+}
+}

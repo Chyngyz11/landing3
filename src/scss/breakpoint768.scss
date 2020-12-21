@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px){
+  .header-items__address{
+    font-size: 15px;
+  }
+  .header-items-call__tel{
+    font-size: 15px;
+    margin-right: 27px;
+  }
+  .menu-navigator__link{
+    font-size: 9px;
+  }
+  .header-items-call__tel:before{
+    transform: translate(97%, -13%);
+  }
+  .header-items-call__schedule{
+    margin-right: 26px;
+    font-size: 15px;
+  }
+  .location-transportation-vehicle__title,.location-transportation-vehicle__title1{
+    font-size: 24px;
+  }
+
+  .location-transportation-vehicle__variant{
+    font-size: 12px;
+    display: block;
+  }
+  .location-transportation{
+    justify-content: start;
+  }
+  .slide-tabs {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .slide-tabs-box{
+    margin-bottom: inherit;
+  }
+  .credit-bank__title{
+    font-size: 30px;
+  }
+  .credit-bank__dec{
+    font-size: 8px;
+  }
+  .credit-bank__moreBtn{
+    font-size: 10px;
+  max-width: 200px;
+  width: 100%;
+  height: 42px;
+ }
+  .cooperation__title{
+    font-size: 30px;
+  }
+  .cooperation__dec{
+
+  }
+  .cooperation__wrapper{
+    max-width: 710px;
+    margin: 0 auto;
+  }
+  .slade-content__bg3,.slade-content__bg4{
+display: none;
+  }
+  .getInformation-form{
+    justify-content: space-evenly;
+  }
+
+  .catalog-photo-carusel1__floor1-3,.catalog-photo-carusel2-floor2-2,.catalog-photo-carusel3__floor3-1{
+    display: none;
+  }
+  .catalog-photo-carusel1__floor1-2,.catalog-photo-carusel2-floor2-1,.catalog-photo-carusel3__floor3-2{
+    display: block;
+  }
+  .catalog-photo-carusel1__floor1-2{
+    display: block;
+  }
+  .catalog-photo-carusel2-floor2-1{
+    display: block;
+  }
+
+  .catalog-photo-carusel1,.catalog-photo-carusel2,.catalog-photo-carusel3{
+    justify-content: start;
+  }
+  .main .footer-bottom-tel__phone{
+    font-size: 22px;
+  }
+  .main .footer-bottom-socialMedia{
+    margin-left: 135px;
+    margin-right: 37px;
+  }
+}

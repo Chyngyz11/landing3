@@ -1,0 +1,36 @@
+.menu{
+  padding: 47px 56px;
+  background: linear-gradient(90deg, #21B82F 0%, #257C25 100%);
+  &-navigator{
+    display: flex;
+    justify-content: space-between;
+    &__link{
+      text-decoration: none;
+      margin-right: 49px;
+      color: #FBFBFB;
+      font-size: 20px;
+      position: relative;
+      &:last-child{
+        margin-right: 0;
+      }
+      &:after{
+        position: absolute;
+        border: 0;
+        left: 0;
+        height: 2px;
+        background: #FFFFFF;
+        content: '';
+        display: block;
+      }
+      &:hover{
+        &:after{
+          width: 100%;
+        }
+
+
+
+     }
+    }
+  }
+}
+

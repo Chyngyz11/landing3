@@ -1,0 +1,41 @@
+/*@import url(../libs/bootstrap/bootstrap-grid.min.css);*/
+@import url(../font/roboto/stylesheet.css);
+@import url(../font/exo/stylesheet.css);
+@import url(../libs/fancybox/jquery.fancybox.min.css);
+@import url(../libs/owl/owl.carousel.min.css);
+@import url(../libs/owl/owl.theme.default.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+color: #131313;
+  scroll-behavior: smooth;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*section{
+  max-width: 1920px;
+  margin: 0 auto;
+}*/
+
+@import "header";
+@import "home";
+@import "menu";
+@import "location";
+@import "map";
+@import "slide";
+@import "cretit";
+@import "cooperation";
+@import "slade";
+@import "getInformation";
+@import "catalog";
+@import "footer";
+@import "overlay";
+@import "up-arrow";
+@import "breakpoint576max";
+@import "breakpoint768.scss";
+@import "breakpoint992.scss";
+@import "breakpoint576min";
+

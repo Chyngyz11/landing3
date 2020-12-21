@@ -1,0 +1,57 @@
+.map{
+    position: relative;
+  &__map{
+    border: none;
+  }
+  border: none;
+   &-content{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0 10px 34px rgba(18, 103, 26, 0.25);
+    width: 945px;
+    top: 80px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    &-box{
+      display: flex;
+      padding: 70px 149px 70px 149px;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      &:before{
+        position: absolute;
+        content: '';
+        background: #FFFFFF;
+        box-shadow: 0 4px 15px rgba(2, 18, 26, 0.1);
+        width: 160px;
+        height: 160px;
+        top: 19%;
+        left: 12%;
+        border-radius: 50%;
+        z-index: -1;
+
+      }
+      &-img{
+        &__icon{}
+      }
+
+
+    &-title{
+      &__text{
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+      }
+      &__green{
+        color: #21B82F;
+      }
+    }
+  }
+}
+
+}

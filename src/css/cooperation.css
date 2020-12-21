@@ -1,0 +1,24 @@
+.cooperation {
+  padding: 144px 277px;
+  background: url("../img/8coorparation/bgRight.png") right 15% no-repeat, url("../img/8coorparation/bgLeft.png") left 89% no-repeat;
+}
+.cooperation__wrapper {
+  max-width: 946px;
+}
+.cooperation__title {
+  font-family: Exo, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #131313;
+  margin-bottom: 40px;
+}
+.cooperation__dec {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 30px;
+}

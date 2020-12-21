@@ -1,0 +1,658 @@
+.catalog {
+  background: url("../img/11footer/bgFooter.png") center bottom/ 1920px 1281px no-repeat;
+  padding: 160px  0 300px;
+  &-photo {
+    width: 1140px;
+    height: 1230px;
+   margin: 0 auto;
+    &-carusel1{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      img{
+        width: 360px;
+        height: 390px;
+        object-fit: cover;
+      }
+      &__floor1-1 {
+        width: 360px;
+        height: 390px;
+       /* flex: 33.333%;*/
+        margin-right: 30px;
+        .owl-carousel{
+          .owl-stage-outer{
+            .owl-stage{
+              position: relative;
+              .block{
+                position: absolute;
+                background: transparent;
+                top: 50px;
+                left: 25px;
+
+                .price {
+                  display: inline-flex;
+                  align-items: center;
+                  max-width: 163px;
+                  width: 100%;
+                  height: 50px;
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  background: url("../img/catalog/bgPrice.png");
+                  margin-bottom: 184px;
+                  justify-content: space-evenly;
+                  border: none;
+
+
+                }
+                .location1{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  max-width: 161px;
+                  width: 100%;
+                  height: 18px;
+                  margin-bottom: 20px;
+                }
+                .title{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 18px;
+                  line-height: 18px;
+                  text-transform: uppercase;
+                  color: #FBFBFB;
+                }
+                .link{
+                  text-decoration: none;
+                }
+              }
+            }
+            .owl-nav{
+              .customPrev1,.customNext1{
+
+              }
+              .customPrev1{
+                background: url("../img/catalog/arrowLeft.png") 0 0 no-repeat;
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                top:50%;
+                left: 25px;
+                cursor: pointer;
+                z-index: 1;
+              }
+              .customNext1{
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                right: 25px;
+                top:50%;
+                cursor: pointer;
+                z-index: 1;
+                background: url("../img/catalog/arrowRight.png") 0 0 no-repeat;
+              }
+            }
+          }
+        }
+      }
+      &__floor1-2 {
+        width: 360px;
+        height: 390px;
+       /* flex: 33.333%;*/
+        margin-right: 30px;
+        .owl-carousel{
+          .owl-stage-outer{
+            .owl-stage{
+              position: relative;
+              .block{
+                position: absolute;
+                background: transparent;
+                top: 50px;
+                left: 25px;
+
+                .price {
+                  display: inline-flex;
+                  align-items: center;
+                  max-width: 163px;
+                  width: 100%;
+                  height: 50px;
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  background: url("../img/catalog/bgPrice.png");
+                  margin-bottom: 184px;
+                  justify-content: space-evenly;
+                  border: none;
+
+
+                }
+                .location1{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  max-width: 161px;
+                  width: 100%;
+                  height: 18px;
+                  margin-bottom: 20px;
+                }
+                .title{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 18px;
+                  line-height: 18px;
+                  text-transform: uppercase;
+                  color: #FBFBFB;
+                }
+                .link{
+                  text-decoration: none;
+                }
+              }
+            }
+            .owl-nav{
+              .customPrev12,.customNext12{
+
+              }
+              .customPrev12{
+                background: url("../img/catalog/arrowLeft.png") 0 0 no-repeat;
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                top:50%;
+                left: 25px;
+                cursor: pointer;
+                z-index: 1;
+              }
+              .customNext12{
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                right: 25px;
+                top:50%;
+                cursor: pointer;
+                z-index: 1;
+                background: url("../img/catalog/arrowRight.png") 0 0 no-repeat;
+              }
+            }
+          }
+        }
+      }
+      &__floor1-3 {
+       width: 360px;
+        height: 390px;
+       /* flex: 33.333%;*/
+        margin-right: 0;
+
+        .owl-carousel {
+          .owl-stage-outer{
+            .owl-stage{
+              position: relative;
+              .block{
+                position: absolute;
+                background: transparent;
+                top: 50px;
+                left: 25px;
+
+                .price {
+                  display: inline-flex;
+                  align-items: center;
+                  max-width: 163px;
+                  width: 100%;
+                  height: 50px;
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  background: url("../img/catalog/bgPrice.png");
+                  margin-bottom: 184px;
+                  justify-content: space-evenly;
+                  border: none;
+
+
+                }
+                .location1{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  max-width: 161px;
+                  width: 100%;
+                  height: 18px;
+                  margin-bottom: 20px;
+                }
+                .title{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 18px;
+                  line-height: 18px;
+                  text-transform: uppercase;
+                  color: #FBFBFB;
+                }
+                .link{
+                  text-decoration: none;
+                }
+              }
+            }
+            .owl-nav{
+              .customPrev13,.customNext13{
+
+              }
+              .customPrev13{
+                background: url("../img/catalog/arrowLeft.png") 0 0 no-repeat;
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                top:50%;
+                left: 25px;
+                cursor: pointer;
+                z-index: 1;
+              }
+              .customNext13{
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                right: 25px;
+                top:50%;
+                cursor: pointer;
+                z-index: 1;
+                background: url("../img/catalog/arrowRight.png") 0 0 no-repeat;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-carusel2{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+       img{
+        max-height: 390px;
+         height: 100%;
+        object-fit: cover;
+      }
+      &-floor2-1{
+        max-width: 653px;
+             width: 100%;
+        height: 390px;
+              flex: 60%;
+             .owl-carousel {
+               .owl-stage-outer{
+                 .owl-stage{
+                   position: relative;
+                   .block{
+                     position: absolute;
+                     background: transparent;
+                     top: 50px;
+                     left: 25px;
+
+                     .price {
+                       display: inline-flex;
+                       align-items: center;
+                       max-width: 163px;
+                       width: 100%;
+                       height: 50px;
+                       font-family: Roboto,sans-serif;
+                       font-style: normal;
+                       font-weight: 500;
+                       font-size: 14px;
+                       line-height: 18px;
+                       color: #FBFBFB;
+                       background: url("../img/catalog/bgPrice.png");
+                       margin-bottom: 184px;
+                       justify-content: space-evenly;
+                       border: none;
+
+
+                     }
+                     .location1{
+                       font-family: Roboto,sans-serif;
+                       font-style: normal;
+                       font-weight: 500;
+                       font-size: 14px;
+                       line-height: 18px;
+                       color: #FBFBFB;
+                       max-width: 161px;
+                       width: 100%;
+                       height: 18px;
+                       margin-bottom: 20px;
+                     }
+                     .title{
+                       font-family: Roboto,sans-serif;
+                       font-style: normal;
+                       font-weight: bold;
+                       font-size: 18px;
+                       line-height: 18px;
+                       text-transform: uppercase;
+                       color: #FBFBFB;
+                     }
+                     .link{
+                       text-decoration: none;
+                     }
+                   }
+                 }
+                 .owl-nav{
+                   .customPrev21,.customNext21{
+
+                   }
+                   .customPrev21{
+                     background: url("../img/catalog/arrowLeft.png") 0 0 no-repeat;
+                     position: absolute;
+                     width:24px ;
+                     height: 24px;
+                     top:50%;
+                     left: 25px;
+                     cursor: pointer;
+                     z-index: 1;
+                   }
+                   .customNext21{
+                     position: absolute;
+                     width:24px ;
+                     height: 24px;
+                     right: 25px;
+                     top:50%;
+                     cursor: pointer;
+                     z-index: 1;
+                     background: url("../img/catalog/arrowRight.png") 0 0 no-repeat;
+                   }
+                 }
+               }
+             }
+      }
+      &-floor2-2{
+        max-width: 457px;
+        width: 100%;
+        max-height: 390px;
+        height: 100%;
+        flex: 40%;
+        .owl-carousel{
+          .owl-stage-outer{
+            .owl-stage{
+              position: relative;
+              .block{
+                position: absolute;
+                background: transparent;
+                top: 50px;
+                left: 25px;
+
+                .price {
+                  display: inline-flex;
+                  align-items: center;
+                  max-width: 163px;
+                  width: 100%;
+                  height: 50px;
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  background: url("../img/catalog/bgPrice.png");
+                  margin-bottom: 184px;
+                  justify-content: space-evenly;
+                  border: none;
+
+
+                }
+                .location1{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  max-width: 161px;
+                  width: 100%;
+                  height: 18px;
+                  margin-bottom: 20px;
+                }
+                .title{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 18px;
+                  line-height: 18px;
+                  text-transform: uppercase;
+                  color: #FBFBFB;
+                }
+                .link{
+                  text-decoration: none;
+                }
+              }
+            }
+            .owl-nav{
+              .customPrev22,.customNext22{
+
+              }
+              .customPrev22{
+                background: url("../img/catalog/arrowLeft.png") 0 0 no-repeat;
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                top:50%;
+                left: 25px;
+                cursor: pointer;
+                z-index: 1;
+              }
+              .customNext22{
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                right: 25px;
+                top:50%;
+                cursor: pointer;
+                z-index: 1;
+                background: url("../img/catalog/arrowRight.png") 0 0 no-repeat;
+              }
+            }
+          }
+        }
+      }
+    }
+    &-carusel3{
+      display: flex;
+      justify-content: space-between;
+      img{
+        max-height: 390px;
+        height: 100%;
+        object-fit: cover;
+      }
+      &__floor3-1{
+        max-width: 457px;
+        width: 100%;
+        max-height: 390px;
+        height: 100%;
+        flex: 40%;
+        .owl-carousel{
+          .owl-stage-outer{
+            .owl-stage{
+              position: relative;
+              .block{
+                position: absolute;
+                background: transparent;
+                top: 50px;
+                left: 25px;
+
+                .price {
+                  display: inline-flex;
+                  align-items: center;
+                  max-width: 163px;
+                  width: 100%;
+                  height: 50px;
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  background: url("../img/catalog/bgPrice.png");
+                  margin-bottom: 184px;
+                  justify-content: space-evenly;
+                  border: none;
+
+
+                }
+                .location1{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  max-width: 161px;
+                  width: 100%;
+                  height: 18px;
+                  margin-bottom: 20px;
+                }
+                .title{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 18px;
+                  line-height: 18px;
+                  text-transform: uppercase;
+                  color: #FBFBFB;
+                }
+                .link{
+                  text-decoration: none;
+                }
+              }
+            }
+            .owl-nav{
+              .customPrev31,.customNext31{
+
+              }
+              .customPrev31{
+                background: url("../img/catalog/arrowLeft.png") 0 0 no-repeat;
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                top:50%;
+                left: 25px;
+                cursor: pointer;
+                z-index: 1;
+              }
+              .customNext31{
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                right: 25px;
+                top:50%;
+                cursor: pointer;
+                z-index: 1;
+                background: url("../img/catalog/arrowRight.png") 0 0 no-repeat;
+              }
+            }
+          }
+        }
+      }
+      &__floor3-2{
+        max-width: 653px;
+        width: 100%;
+        max-height: 390px;
+        height: 100%;
+        flex: 60%;
+        .owl-carousel {
+          .owl-stage-outer{
+            .owl-stage{
+              position: relative;
+              .block{
+                position: absolute;
+                background: transparent;
+                top: 50px;
+                left: 25px;
+
+                .price {
+                  display: inline-flex;
+                  align-items: center;
+                  max-width: 163px;
+                  width: 100%;
+                  height: 50px;
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  background: url("../img/catalog/bgPrice.png");
+                  margin-bottom: 184px;
+                  justify-content: space-evenly;
+                  border: none;
+
+
+                }
+                .location1{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #FBFBFB;
+                  max-width: 161px;
+                  width: 100%;
+                  height: 18px;
+                  margin-bottom: 20px;
+                }
+                .title{
+                  font-family: Roboto,sans-serif;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 18px;
+                  line-height: 18px;
+                  text-transform: uppercase;
+                  color: #FBFBFB;
+                }
+                .link{
+                  text-decoration: none;
+                }
+              }
+            }
+            .owl-nav{
+              .customPrev32,.customNext32{
+
+              }
+              .customPrev32{
+                background: url("../img/catalog/arrowLeft.png") 0 0 no-repeat;
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                top:50%;
+                left: 25px;
+                cursor: pointer;
+                z-index: 1;
+              }
+              .customNext32{
+                position: absolute;
+                width:24px ;
+                height: 24px;
+                right: 25px;
+                top:50%;
+                cursor: pointer;
+                z-index: 1;
+                background: url("../img/catalog/arrowRight.png") 0 0 no-repeat;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
